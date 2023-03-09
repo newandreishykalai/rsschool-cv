@@ -1,1 +1,1 @@
-https://newandreishykalai.github.io/rsschool-cv/cv
+https://newandreishykalai.github.io/rsschool-cv/
