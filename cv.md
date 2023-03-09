@@ -16,7 +16,6 @@ My main goal is to gain new skills and knowledge in order to become a strong for
 - CSS
 - JavaScript(Basic)
 - Git
-- GitHub
 
 ## Code Example
 
