@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Hind Siliguri";
+    src: url("assets/fonts/HindSiliguri.ttf");
+}
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(180, 174, 174);
+
+}
+
+ul {
+    padding: 0 0 10px 16px
+}
+
+:root {
+    --page-violet: #000000;
+    --page-gray: rgb(99, 95, 95);
+    --section-title-bg: linear-gradient(90deg, rgb(15, 15, 15), rgb(189, 62, 39));
+}
+
+
+.text-bold {
+    font-weight: bold;
+
+}
+
+.body-flex {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 992px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+/* -------------------------------- HEADER -------------------------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    font-size: 20px;
+}
+
+.page-title {
+    flex-grow: 1;
+
+}
+
+
+
+
+
+
+.page-title__name {
+    font-size: 32px;
+}
+
+.page-photo {
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.page-photo__image {
+    border-radius: 50%;
+    width: 100%;
+    padding: 20px
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 32px;
+    list-style: none;
+
+}
+
+.contacts img {
+    margin-left: -30px;
+}
+
+
+.contacts__box {
+    padding: 0 32px 0 1.5rem;
+    font-size: 16px;
+    color: var(--page-gray);
+
+
+
+}
+
+.contacts__box::after {
+    content: url("assets/icons/icons8-лицо-npc-50.ico");
+    position: absolute;
+    margin-top: -18px;
+}
+
+.header-email::after {
+    content: url("../assets/icons/icons8-почта-48.ico");
+
+}
+
+.header-map::after {
+    content: url("../assets/icons/icons8-местонахождение-пользователя-48.ico");
+}
+
+
+
+
+
+.contacts__box a {
+    color: var(--page-gray);
+    text-decoration: none;
+}
+
+.contacts img {
+
+    width: 60px;
+    height: 50px;
+    margin-right: 0;
+}
+
+
+.contacts__box a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    background: var(--section-title-bg);
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: var(--page-blue);
+    transition: .2s;
+    color: #f1f1f1;
+}
+
+.nav-link:hover {
+    transition: .2s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* -------------------------------- MAIN -------------------------------- */
+.main {
+    padding: 32px 16px;
+}
+
+
+.main-section__title {
+    margin: 16px 0;
+    padding: 0 16px;
+    max-width: 30%;
+    font-size: 1.5rem;
+    color: var(--page-violet);
+}
+
+.main-section__title:after {
+    content: '';
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 70%;
+    background: var(--section-title-bg);
+}
+
+.main-section__text {
+    padding: 10px;
+}
+
+.main-section__text p {
+    padding-bottom: 10px;
+}
+
+.experience__title {
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.code-box {
+    padding: 16px;
+    background-color: rgb(180, 174, 174);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: 2px solid rgb(98 41 30);
+}
+
+
+/* -------------------------------- FOOTER -------------------------------- */
+.footer {
+    padding: 16px;
+    background: var(--section-title-bg);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    flex-grow: 1;
+}
+
+.github,
+.rs-school {
+    padding: 0 16px;
+}
