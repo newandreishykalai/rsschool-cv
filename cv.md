@@ -4,7 +4,7 @@
 
 - Phone: +375 29 173 74 68
 - Email: andreishykalai@gmail.com
-- Github: andreishykalai112
+- Github: newandreishykalai
 
 ## About-me
 
